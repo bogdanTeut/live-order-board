@@ -1,7 +1,6 @@
-package com.cryptoinc.marketplace;
+package com.cryptoinc.marketplace.validators;
 
 import com.cryptoinc.marketplace.domain.Order;
-import com.cryptoinc.marketplace.validators.OrderValidator;
 
 import java.math.BigDecimal;
 import java.util.Objects;

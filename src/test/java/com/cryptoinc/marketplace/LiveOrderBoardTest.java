@@ -4,6 +4,7 @@ import com.cryptoinc.marketplace.domain.Order;
 import com.cryptoinc.marketplace.domain.OrderSummary;
 import com.cryptoinc.marketplace.repository.OrderRepository;
 import com.cryptoinc.marketplace.validators.OrderValidator;
+import com.cryptoinc.marketplace.validators.OrderValidatorImpl;
 import org.hamcrest.MatcherAssert;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
