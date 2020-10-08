@@ -1,5 +1,6 @@
 Considerations:
 Prerequisites: Java 11 
+
 -Install it on a MacOS(El Capitan), follow these steps: $ brew update $ brew tap caskroom/cask $ brew install Caskroom/cask/java -Verify it by: $ java -version, it should point to java 8 or bigger.
 
 -Install it on a Ubuntu, follow these steps: $ sudo add-apt-repository ppa:linuxuprising/java $ sudo apt-get update $ sudo apt install oracle-java11-installer -Verify it by: $ java -version, it should point to java 11.
@@ -7,7 +8,11 @@ Prerequisites: Java 11
 Run unit tests by:
 
 mvn test jacoco:report You can then access target/site/jacoco/index.html in order to check the code coverage. You can then access target/surefire-reports/index.html in order to see the tests results.
+
+
 Observations:
+
+Apologies I didn't push changes in separate commits, so you could follow my TDD approach, I realised too late.
 
 I came up with a random set of validations, just to prove a point. In real life, validations are more complex, and they are the result of business requirements.
 
